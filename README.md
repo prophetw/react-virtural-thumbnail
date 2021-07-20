@@ -1,5 +1,8 @@
 # umi project
 
+* support virtual list
+* support infinite scroll load more
+
 [demo](https://prophetw.github.io/)
 
 
