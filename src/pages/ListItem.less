@@ -1,0 +1,42 @@
+.item_container {
+  // flex: 0 0 auto;
+  float: left;
+  margin: 8px;
+  padding: 10px;
+  border: 1px solid #eee;
+  position: absolute;
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .item_options {
+      position: absolute;
+      right: 2px;
+      top: 0;
+      height: 40px;
+      width: 15px;
+    }
+    .status {
+      width: 128px;
+      height: 128px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .title {
+      margin-top: 10px;
+      display: flex;
+      .elipsis {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: inline-block;
+        text-align: center;
+      }
+    }
+    .date {
+      font-size: 12px;
+    }
+  }
+}
